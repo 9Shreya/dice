@@ -1,0 +1,136 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+body {
+  font-family: cursive;
+}
+.one,
+.two {
+  font-weight: bolder;
+  font-size: 55px;
+  text-shadow: 3px 2px rgb(148, 187, 231);
+  position: relative;
+}
+#win {
+  width: 400px;
+  height: 300px;
+  justify-content: center;
+  color: rgb(3, 26, 15);
+  font-size: 50px;
+  font-weight: bolder;
+  text-shadow: 4px 4px rgb(231, 133, 20);
+  text-align: center;
+  margin-top: 3%;
+  padding: 30px;
+  position: relative;
+}
+body {
+  background-color: aliceblue;
+}
+.but {
+  border-radius: 10px;
+  height: 60px;
+  width: 50%;
+  font-size: 30px;
+  font-weight: bolder;
+  box-shadow: 5px 5px rgb(123, 134, 163);
+  color: black !important;
+  background-color: rgb(209, 136, 53) !important;
+  margin-top: 5%;
+  border: none;
+  outline: none;
+}
+.but:hover {
+  box-shadow: 5px 5px rgb(126, 125, 116);
+  color: rgb(126, 125, 116);
+  background-color: rgb(222, 231, 240);
+}
+#on,
+#to {
+  border-radius: 10%;
+}
+h2 {
+  font-size: 45px;
+  margin-top: 10%;
+}
+.logo {
+  text-shadow: 5px 5px rgb(175, 201, 231);
+  color: rgb(23, 24, 26);
+  margin-top: 25px;
+  font-size: 75px;
+}
+img {
+  margin-left: 20%;
+}
+@media (max-width: 875px) {
+  h2,
+  .logo {
+    font-size: 35px;
+    text-shadow: 2px 2px rgb(226, 202, 64);
+  }
+  img {
+    width: 80%;
+    margin-left: 10%;
+    box-sizing: border-box;
+    margin-top: -10%;
+    margin-right: 10%;
+  }
+  #win {
+    font-size: 35px;
+    text-shadow: 2px 2px rgb(226, 202, 64);
+    color: rgb(255, 106, 47);
+  }
+}
+@media (max-width: 770px) {
+  h2,
+  .logo {
+    font-size: 35px;
+    text-shadow: 2px 2px rgb(226, 202, 64);
+    margin-left: -2%;
+  }
+  img {
+    width: 80%;
+    margin-left: 5%;
+    box-sizing: border-box;
+    margin-top: -10%;
+    margin-right: 10%;
+  }
+  #win {
+    font-size: 35px;
+    text-shadow: 2px 2px rgb(226, 202, 64);
+    color: rgb(255, 106, 47);
+  }
+  .but {
+    margin-top: -5%;
+  }
+  .main {
+    display: flex !important;
+  }
+}
+@media (max-width: 380px) {
+  h2,
+  .logo {
+    font-size: 25px;
+    text-shadow: 2px 2px rgb(226, 202, 64);
+    margin-left: -2%;
+  }
+  #win {
+    font-size: 25px;
+  }
+  img {
+    width: 100%;
+    margin-left: 5%;
+    box-sizing: border-box;
+    margin-top: -100%;
+    margin-right: 10%;
+  }
+  .text {
+    font-size: 15px;
+  }
+  .but {
+    margin-top: -15%;
+    width: 80%;
+    height: 50px;
+  }
+}
