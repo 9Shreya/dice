@@ -15,7 +15,7 @@ body {
 #win {
   width: 400px;
   height: 300px;
-  justify-content: center;
+
   color: rgb(3, 26, 15);
   font-size: 50px;
   font-weight: bolder;
@@ -129,7 +129,7 @@ img {
     font-size: 15px;
   }
   .but {
-    margin-top: -15%;
+    margin-top: 0%;
     width: 80%;
     height: 50px;
   }
